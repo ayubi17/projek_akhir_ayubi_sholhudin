@@ -1,0 +1,54 @@
+body{
+	background-image: url(background.jpg) ,linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+	size: cover;
+	background-position: center;
+}.signup{
+	background:rgba(0, 0, 0, 0.7);
+	padding: 40px;
+	width: 250px;
+	margin: auto;
+	height:400px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}form{
+	width: 240px;
+	text-align: center;
+
+}.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0px;
+	margin: 8px 0px;
+	border-bottom: 1px solid black;
+}
+.textbox i{
+	float: left;
+	text-align: center;
+	width: 26px;
+}.textbox input{
+	border: none;
+	outline: none;
+	background:none;
+	font-size: 18px;
+	color: red;
+	width: 220px;
+	float: left;
+	margin: 0 10px;
+	text-align: center;
+}.signup h1{
+	color: white;
+}
+#btn{
+	width: 100%;
+	background:none;
+	border: 1px solid black;
+	padding: 5px;
+	color: white;
+	margin-top: 10px;
+}

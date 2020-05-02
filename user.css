@@ -1,0 +1,194 @@
+*{
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+#container{
+	width: 100%;
+	height: 728px;
+	background-image: url('ground_admin.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#awal{
+	width: 100%;
+	height: 728px;
+	background-image: url('ground_awal1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#beranda{
+	width: 100%;
+	height: 728px;
+	background-image: url('logo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#pilihan{
+	width: 100%;
+	height: 728px;
+	background-image: url('ijo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#datauser{
+	width: 100%;
+	height: 728px;
+	background-image: url('triplek.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#logout{
+	
+	padding: 10px 10px 10px 10px;
+	word-spacing:9px;
+	float:left;
+}
+#logout a{
+	width:53px;
+}
+
+#register {
+	width: 100%;
+	height: 728px;
+	background-image: url('register.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#kotak {
+position:absolute;
+left:40%;
+top:34%;
+box-shadow: 3px 0px 9px yellow;
+width:321px;
+padding: 10px 10px 10px 10px;
+background-color:yellow;
+opacity: 0.8;
+border-radius: 6px ;
+}
+#kotak input[type="submit"]{
+	float:left;
+	width:150px;
+}
+#kotak input[type="reset"]{
+	float:right;
+	width:150px;
+}
+#kotak input{
+box-shadow: 3px 0px 9px yellow;
+width:200px;
+background-color:orange;
+border-radius: 6px ;
+float:right;
+}
+#badut{
+	width: 100%;
+	height: 728px;
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#Mbutton{
+border-width: 0px;
+float:center;
+width:100px;
+text-shadow: 0px 0px 3px yellow;
+	color:red ;
+	background-color: orange;
+	padding: 10px 45px 10px 45px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px red,
+				0 0 25px red,
+				0 0 50px red,
+				0 0 200px red;
+}
+#user{
+	background-image: url('tembok.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:white;
+}
+#desain{
+	background-image: url('tembok.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:white;
+}
+
+#menu{
+	width: 99%;
+	padding: 10px 10px 30px 30px;
+	word-spacing: 120px;
+	border-bottom: 3px black;
+	background-image: url('bola.jpg');
+	height: 50px; 
+}
+#menu ul{
+	width:200px;
+	height:40px;
+	position:absolute;
+	right:25%;
+	top:30px;
+	justify-content: center;
+	transition: 1s;
+	border-radius: 5px;
+}
+#menu ul:hover{
+	height:25%;
+	background-color: grey;
+	border-radius: 0px;
+}
+#menu ul:hover li:hover a{
+	transition: 1s;
+	}
+#menu ul:hover li:hover a:hover{
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s;
+	}
+#menu ul:hover li:hover{
+	background-color: cyan;
+	transition: 1s;
+}
+#menu ul:hover li a{
+	padding: 10px 45px 10px 50px;
+
+	transition:1s;
+
+} 
+#menu ul li{
+	border-radius: 5px;
+	float:center;
+	transition: 1s;
+}
+#menu a{
+	word-spacing: 10px;
+	color:white;
+	transition:1s;
+	float: right;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 45px 10px 45px;
+
+
+}
+#menu a:hover{
+	text-shadow: 0px 0px 3px orange;
+	color:red ;
+	background-color: #03e9f4;
+	padding: 10px 45px 10px 45px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px orange,
+				0 0 25px orange,
+				0 0 50px orange,
+				0 0 200px orange;
+}
+#regis{
+	width: 100%;
+	height:100%;
+	background-image: url('register.jpg');
+	background-repeat: no-repeat;
+
+}
